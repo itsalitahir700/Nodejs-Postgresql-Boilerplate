@@ -14,6 +14,7 @@ This is a boilerplate to build a starting API with Node.js, Express and PostgreS
     - [Express](#express)
     - [PostgreSQL](#postgresql)
     - [Sequelize](#sequelize)
+    - [SQL file] https://github.com/pthom/northwind_psql
 
 ## Introduction
 
