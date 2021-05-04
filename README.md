@@ -1,7 +1,5 @@
 # simple-nodejs-postgresql
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 This is a boilerplate to build a starting API with Node.js, Express and PostgreSQL on ES6. It is also configured with babel.
 
 - [simple-nodejs-postgresql](#simple-nodejs-postgresql)
@@ -29,11 +27,7 @@ The server side Express code will be served by a node server using [Nodemon](htt
 
 ```bash
 # Clone the repository
-git clone git@github.com:ParmentierChristophe/simple-nodejs-postgresql.git
-
-or
-
-git clone https://github.com/ParmentierChristophe/simple-nodejs-postgresql.git
+git clone <repo_url>
 
 # Go inside the directory
 cd simple-nodejs-postgresql
@@ -71,23 +65,3 @@ You also seeds, make with Sequilize :
 ### PostgreSQL
 
 ### Sequelize
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Plokkke"><img src="https://avatars1.githubusercontent.com/u/51399514?v=4" width="100px;" alt="Antoine Caron"/><br /><sub><b>Antoine Caron</b></sub></a><br /><a href="https://github.com/ParmentierChristophe/simple-nodejs-postgresql/commits?author=Plokkke" title="Code">💻</a> <a href="#ideas-Plokkke" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/ParmentierChristophe/simple-nodejs-postgresql/pulls?q=is%3Apr+reviewed-by%3APlokkke" title="Reviewed Pull Requests">👀</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
