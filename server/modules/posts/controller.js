@@ -1,7 +1,7 @@
 import pool from "../../../database";
 import { errorHandling } from "../utils/errorHandling";
 
-export const getAllPosts = async (req, res) => {
+export const getAllPosts = async (_req, res) => {
   try {
     const posts = await pool.Post.findAll({
       include: [

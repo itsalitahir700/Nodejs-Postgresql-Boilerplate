@@ -1,6 +1,11 @@
 import pool from "../../../database";
 import { errorHandling } from "../utils/errorHandling";
 
+export const welcome = async (_req, res) => {
+  console.log(req.user);
+  res.status(200).json({ message: "WELCOME" });
+};
+
 export const getAllUsers = async (req, res) => {
   try {
     const users = await pool.query("Select * from customers");
